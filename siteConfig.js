@@ -1,9 +1,9 @@
 module.exports = {
-  name: 'London Night and Day',
+  name: 'Seb Stuart-Banks',
   shortName: '',
-  description: 'A bold, minimal theme for Gatsby, focused on clean typography & beautiful imagery',
-  url: 'https://www.jooplaan.com', // Domain of your site without prefix!
+  description: 'A collection of thoughts and experiences',
+  url: 'https://sebstuart-banks.co.uk', // Domain of your site without prefix!
   prefix: '/',
-  author: 'jooplaan',
+  author: 'Seb Stuart-Banks',
   twitter: ''
 }
