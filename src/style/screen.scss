@@ -191,8 +191,11 @@ body {
 }
 
 .nav-current a,
+.nav-current a:active {
+color:blueviolet
+}
 .site-head a:hover {
-  text-decoration: underline;
+  text-decoration: solid;
   opacity: 1;
   color: blueviolet;
 }
