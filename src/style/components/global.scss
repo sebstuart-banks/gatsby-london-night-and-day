@@ -272,7 +272,6 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    -moz-font-feature-settings: "liga" on;
     @include light-mode {
       background: $color-bg-light;
       color: $color-base-light;
