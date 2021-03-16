@@ -3,7 +3,7 @@ import { graphql, StaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-// import Bio from "../components/bio"
+//import Bio from "../components/bio"
 import PostCard from "../components/postCard"
 
 import "../style/normalize.css"
@@ -20,7 +20,7 @@ const BlogIndex = ({ data }, location) => {
         title="SebStuart-Banks"
         keywords={[`sebstuart-banks`, `blog`, `gatsby`, `javascript`, `react`]}
       />
-      {['This is a personal website that shares the thoughts, experiences and ideas of Seb Stuart-Banks']}
+      {/*bio*/}
       {data.site.siteMetadata.description && (
         <header className="page-head">
           <h2 className="page-head-title">
