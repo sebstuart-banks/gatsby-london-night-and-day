@@ -20,7 +20,7 @@ const BlogIndex = ({ data }, location) => {
         title="SebStuart-Banks"
         keywords={[`sebstuart-banks`, `blog`, `gatsby`, `javascript`, `react`]}
       />
-      {/* <Bio /> */}
+      {['This is a personal website that shares the thoughts, experiences and ideas of Seb Stuart-Banks']}
       {data.site.siteMetadata.description && (
         <header className="page-head">
           <h2 className="page-head-title">
