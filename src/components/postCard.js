@@ -22,28 +22,6 @@ export default props => (
       }
   </article>
 )
-  export default props => (
-  <article
-  className={`post-card ${props.count % 3 === 0 && `post-card-large`} ${
-    props.postClass
-  } ${props.node.frontmatter.thumbnail ? `with-image` : `no-image`}`}
-  style={
-    props.node.frontmatter.thumbnail && {
-      backgroundImage: `url(${
-        props.node.frontmatter.thumbnail.childImageSharp.fluid.src
-      })`,
-    }
-  }
->
-    {
-      props.node.frontmatter.thumbnail
-        ?(<ContentWithImage props={props}/>)
-        :(<ContentNoImage props={props}/>)
-    }
-</article>
-
-)
-
 class ContentNoImage extends Component {
   render() {
     const{props}=this.props;
