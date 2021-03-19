@@ -26,6 +26,7 @@ const BlogIndex = ({ data }, location) => {
           <h2 className="page-head-title">
             {data.site.siteMetadata.description}
           </h2>
+          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </header>
       )}
       <div className="post-feed">
